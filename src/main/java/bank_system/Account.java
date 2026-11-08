@@ -9,9 +9,9 @@ import org.slf4j.LoggerFactory;
  * Lớp đại diện cho một tài khoản ngân hàng cơ bản.
  */
 public abstract class Account {
-        private static final Logger logger = LoggerFactory.getLogger(Account.class);
+    private static final Logger logger = LoggerFactory.getLogger(Account.class);
 
-    public static final String CHECKING_TYPE = "CHECKING"
+    public static final String CHECKING_TYPE = "CHECKING";
     public static final String SAVINGS_TYPE = "SAVINGS";
 
     private long accountNumber;
